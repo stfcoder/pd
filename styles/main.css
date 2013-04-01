@@ -1,0 +1,118 @@
+/* CSS created by Jen Herr on July 27, 2005 */
+
+body { background-image: url('none');
+		 	 background-color: #000000;
+			 font-family: verdana, sans-serif;
+			 font-size: 11pt;
+			 line-height: 1.35;
+			 color: #cccccc;
+			 }
+
+h2 { text-align: center;
+		 color: #ffcc33;
+		 font-family: serif;
+		 font-size: 34pt;
+		 }
+ 
+h3 { background-color: #000066;
+	 	 color: #ffcc33;
+	 	 border-top: 1px solid #ffffff;
+		 border-bottom: 1px solid #ffffff;
+		 text-align: center;
+		 padding: 2px;
+		 margin-bottom: 20px;
+		 margin-top: 20px;
+		 }
+
+h4 { color: #ffcc33;
+		 font-size: 16pt;
+		 font-family: serif;
+		 }
+
+h5 	 { color: #ffcc33;
+			font-size: 12pt;
+			font-weight: bold;	
+			margin-left: 6%;
+			}		 
+		 
+b { color: #ffcc00; }
+
+a { font-weight: bold;
+		text-decoration: none;
+		color: #0066cc;
+		}
+
+a:hover { color: #ffcc00;
+					text-decoration: underline; 
+					}
+
+input {	border-right: 2px outset #ffcc33; 
+				background: none transparent; 
+				color: #ffffff;
+				font-weight: bold;
+				}					
+				
+#mainbody { margin-left: 2%;
+						margin-right: 2%;
+						}		
+
+#quote { font-family: verdana, sans-serif;
+				 font-style: italic;
+				 text-align: center;
+				 font-weight: bold;
+				 margin-top: -10px;
+				 }
+				 
+#staff { margin-left: 16%;
+			 	 margin-right: 16%;
+				 border-top: 1px dotted white;
+				 }				 
+					 
+#pdir, #apdir { float: left; 
+							 	width: 48%;
+								border-bottom: 1px dotted white;
+								margin-bottom: 2%;
+								}		
+															 
+#dlinks { clear: both;
+					margin-left: 6%;
+					margin-right: 6%;
+					background-color: #000000;
+					background-image: url('http://www.star-fleet.com/images/starfields/plain.gif');
+					border-right: 2px solid #000066; 
+				   border-top: 2px solid #ffcc33; 
+					 border-left: 2px solid #ffcc33; 
+					 border-bottom: 2px solid #000099;
+					 }
+						
+#dlinks a { margin-left: 5px;
+						margin-right: 5px;
+					 border-bottom: 1px dotted #ffcc00;
+					 font-size: 10pt;
+					 } 
+
+#ndlinks .box{ text-align: center;
+			 			 padding-top: 2px;
+						 padding-bottom: 2px;
+						 border-top: 1px dotted #ffffff;
+						 border-bottom: 1px dotted #ffffff;
+						 clear: both;
+						 }
+						 
+#ndlinks a { background-image: url('http://www.star-fleet.com/images/starfields/plain.gif');
+				border-right: 2px solid #003399; 
+				border-top: 2px solid #ffcc00; 
+				border-left: 2px solid #ffcc00; 
+				border-bottom: 2px solid #003399; 
+				color: #ffffff;
+				padding: 4px;
+				text-align: center;
+				font-size: 10pt;
+				}						 
+				
+#ndlinks a:hover { color: #ffcc00; }
+
+
+
+
+

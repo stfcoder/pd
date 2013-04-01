@@ -1,0 +1,27 @@
+<?php
+
+// Include PEAR libraries
+require_once('PEAR/DB.php');
+require_once("PEAR/Auth.php");
+
+// Include our template engine (not part of PEAR)
+require_once('Smarty/libs/Smarty.class.php');
+
+// Include our input processing class
+require_once('includes/Input.class.php');
+
+// Include our functions
+require_once('includes/functions.php');
+
+// Department members
+require_once('includes/department.inc.php');
+
+// Database
+
+$dsn = array('phptype'  => 'mysql', 'username' => '', 'password' => '', 'hostspec' => '',  'database' => '');
+
+$db =& DB::connect($dsn);
+
+$db->setFetchMode(DB_FETCHMODE_ASSOC);	// We always want to use associative arrays, because they're cool
+
+?>

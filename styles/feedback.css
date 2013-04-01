@@ -1,0 +1,75 @@
+/* CSS created by Emma Rouse-Deane June 2005 */
+
+/* this creates a standard black starfield page, with silver text in Verdana*/
+body{
+background: #000000 url(http://www.star-fleet.com/images/starfield.gif);
+color: #c0c0c0;\
+font-family: Verdana, sans-serif;\
+}
+
+/* this is the quote paragraph which renders a white and bold font that is aligned to the center*/
+p.quote {
+color: #ffffff;
+ font-weight: bold;
+ font-family: Verdana, sans-serif;
+ text-align: center;
+}
+
+/* this defines the author paragraph*/
+p.author {
+			text-align: center;
+			font-family: Verdana, sans-serif;
+			}
+
+/* this styles the h3 header so that it's a golden Verdana font, that's aligned to the center*/
+h3 {
+color: #f7d400;
+font-family: Verdana, sans-serif;
+text-align: center;
+font-size: 24pt;
+}
+
+
+
+/* this defines the standard strong tag to be coloured gold*/
+strong {
+color: #f7d400;
+}
+
+
+
+/*this gives  a table with a blue border, padding of 2px and a width that is 100% thus scalable due to browser window size*/
+table {
+border: 2px solid #336699;
+table-layout: auto;
+width: 100%;
+padding-bottom: 2px;
+padding-left: 2px;
+padding-right: 2px;
+padding-top: 2px;
+}
+
+
+
+/* this set a div to a width of 75%, that uses a standard Verdana font.. and that is 12.5% indented - giving a central design*/
+div#container{
+width: 75%;
+font-family: Verdana, sans-serif;
+margin-left: 12.5%;
+}
+
+/* this defines the visited, normal and active links - to a blue coloured font, with a 1px dotted blue line underline*/
+a:link, a:visited, a:active {
+			color: #009ef7;
+			text-decoration: none;
+			border-bottom: 1px dotted #336699;
+			font-family: Verdana, sans-serif;
+			}
+
+/*this defines the hover link - the link will change to white, on mouseover */	
+		a:hover {
+			color: #ffffff;
+			text-decoration: none;
+			font-family: Verdana;
+			border-bottom: 1px dotted #336699;
+			}
