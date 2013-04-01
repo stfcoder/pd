@@ -23,6 +23,13 @@ $smarty->assign('title', 'Recommendation Confirmation');
 
 $stop = false;
 
+//Dislike doing this, but we only need to connect to the database in this script.
+$link = mysql_connect("localhost", $webbuser, $webbpass);
+	
+if (!$link) {
+    	die('Could not connect: ' . mysql_error());
+}
+
 // Process form
 if(isset($_GET['uid'])) {
   $form = new Input($_GET);
@@ -41,12 +48,6 @@ else {
 }
 
 if(!$stop) {
-	//Dislike doing this, but we only need to connect to the database in this script.
-	$link = mysql_connect("localhost", $webbuser, $webbpass);
-	
-	if (!$link) {
-    	die('Could not connect: ' . mysql_error());
-	}
 	
 	mysql_select_db("stfleet_webb");
 	

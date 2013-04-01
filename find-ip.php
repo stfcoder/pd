@@ -29,6 +29,13 @@ else {
 	$form = new Input($_POST);
 }
 
+//Dislike doing this, but we only need to connect to the database in this script.
+$link = mysql_connect("localhost", $webbuser, $webbpass);
+	
+if (!$link) {
+    	die('Could not connect: ' . mysql_error());
+}
+
 $ip =  mysql_real_escape_string($form->getString("ip"));
 
 if (empty($ip)) {
@@ -36,12 +43,6 @@ if (empty($ip)) {
 }
 
 else {
-	//Dislike doing this, but we only need to connect to the database in this script.
-	$link = mysql_connect("localhost", $webbuser, $webbpass);
-	
-	if (!$link) {
-    	die('Could not connect: ' . mysql_error());
-	}
 	
 	mysql_select_db("stfleet_webb");
 	
